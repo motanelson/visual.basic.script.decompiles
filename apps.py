@@ -97,7 +97,7 @@ heads(filesa,heads_)
 for n in range(len(gfiles)):
     sss=gfiles[n].strip()
     if sss!="":
-        defs(filesa,gfiles[n])
+        defs(filesa,sss)
 
 
 heads__="""
@@ -122,7 +122,7 @@ saves(filesa,"a",heads__)
 for n in range(len(gfiles)):
     sss=gfiles[n].strip()
     if sss!="":
-        defs_(filesa,gfiles[n])
+        defs_(filesa,sss)
 
 heads___="""
     def setuploop(self):
