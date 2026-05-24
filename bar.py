@@ -15,11 +15,11 @@ class myapps:
         self.canvas = tk.Canvas(background="black",width=640,height=480)
         self.canvas.pack(padx=0,pady=0)
         c=self.canvas
-        for a in range(0,640,40):
+        for a in range(0,640,80):
             
             
             c.create_rectangle(a,0,a+20,480,fill="white")
-        for a in range(0,480,40):
+        for a in range(0,480,80):
             
             
             c.create_rectangle(0,a,640,a+20,fill="white")
